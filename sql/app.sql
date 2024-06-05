@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS `membre` (
     tel_membre VARCHAR(20),
     id_refuge INTEGER,
     id_dirigeant INTEGER
-);
+);  
 
 CREATE TABLE IF NOT EXISTS `refuge` (
     id_refuge INTEGER PRIMARY KEY AUTO_INCREMENT,
